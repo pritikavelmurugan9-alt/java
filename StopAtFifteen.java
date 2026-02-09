@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class StopAtFifteen {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 20; i++) {
+            if (i == 15) {
+                break;
+            }
+            System.out.println(i);
+        }
+    }
+}
